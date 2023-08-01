@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script:wght@500&display=swap');
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Advent Pro', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+ul {
+   padding: 0;
+   margin: 0;
+}
+li {
+   list-style-type: none;
+}
+h2 {
+ text-transform: uppercase;
+ text-align: center;
+ padding-top: 30Px;
+ font-size: 2em;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR  */
+
+header nav {
+   overflow: hidden;
+   background-color: #fffae1;  
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+}
+header li {
+   float: right;
+   font-size: 1.2em; 
+}
+header li a {
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   padding: 18px 16px;
+}
+#logo {
+   font-family: "dancing Script", cursive;
+   font-weight: bold;
+   float: left;
+}
+
+/* IMAGE PRINCIPAL IMAGE PRINCIPAL IMAGE PRINCIPAL IMAGE PRINCIPAL */
+
+#ImagePrincipale {
+   padding-top: 60px;
+   background: url(media/bojy.JPEG) no-repeat fixed 50% 50%;
+   height: 799px;
+}
+h1 {
+   font-family: "Dancing Script", cursive;
+   text-align: center;
+   color: antiquewhite;
+   font-size: 6em;
+   margin-top: 80px;
+   text-shadow: 1px 3px 2px black;
+}
+#PremierTrait {
+   height: 1px;
+   width: 35%;
+   margin: -3px auto;
+   background-color: #fffae1;
+   box-shadow: 1px 3px 2px black;
+}
+h3 {
+   text-align: center;
+   color: antiquewhite;
+   font-size: 3em;
+   text-shadow: 1px 3px 2px black;
+}
+
+/* FAMILLE FAMILLE FAMILLE FAMILLE FAMILLE FAMILLE  */
+
+#Famille {
+   background-color: #FFFAE1;
+   background-repeat: repeat;
+   padding: 10px 0 100px 0;
+}
+#texteIntro {
+   padding: 0 20%;
+   max-width: 1500px;
+   margin: 0 auto;
+}
+#Présentation {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 30px 10%;
+   max-width: 1500px;
+   margin: 0 auto;
+}
+.imagesPrésentation h4 {
+   font-family: "Dancing Script", cursive;
+   text-align: center;
+   font-size: 1.8em;
+   margin: 15px;
+   font-weight: 300;
+}
+.imagesPrésentation img {
+   border-radius: 10px;
+   box-shadow: 5px 6px 5px 4px rgba(0, 0, 0, 0.479);
+}
+.imagesPrésentation img:hover {
+   opacity: 0.7;
+   transform: scale(1.05);
+   transition: 0.4s ease-in-out;
+}
+
+/* BALADES BALADES BALADES BALADES BALADES BALADES */
+
+#Balades ul{
+  max-width: fit-content;
+   margin: 0 auto;
+   display: table;
+}
+#Balades {
+   height: 1400px;
+   background-color: #F1F2F6;
+   padding: 1px 2%;
+}
+
+#Balades h2 {
+   padding-top: 60px;
+   max-width: 1500px;
+   margin: auto;
+}
+#Plage {
+   background: url(Media/plage.JPEG);
+}
+#Zoo {
+   background: url(Media/zoo.JPEG);
+}
+#Bois {
+   background: url(Media/bois.JPEG);
+}
+#Japon {
+   background: url(Media/japon.JPEG);
+}
+#Balades li {
+   margin: 65px 100px 0 100px;
+   height: 226px;
+   width: 55%;
+   max-width: 550px;
+   float: left;
+   box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
+#Balades p {
+   height: 45px;
+   width: 235px;
+   background-color: #ffdd73;
+   float: right;
+   margin: 50px -180px 0 0;
+   font-size: 1.5em;
+   text-align: center;
+   padding-top: 15px;
+   box-shadow: 4px 4px 0 1px rgb(219, 169, 31);
+}
+#Balades #Zoo, #Balades #Japon {
+   float: right;
+}
+#Zoo p, #Japon p {
+   float: left;
+   background-color: rgb(211, 150, 59);
+   margin-left: -180px;
+   box-shadow: -4px 4px 0 1px rgb(150, 106, 42);
+}
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER  */
+
+footer {
+   background-color: #524A3A ;
+   color: #FFFAE1 ;
+   padding: 20px 0 10px 0 ;
+   text-align: center;
+}
+form {
+   margin: 0 auto;
+   max-width: 900px;
+
+}
+input, textarea, button {
+   border: none;
+   width: 55%;
+   padding: 15px 10px;
+   margin: 1px 0;
+   font-size: 1.2em;
+   font-family: "Advent Pro", sans serif;
+   border-radius: 8px;
+}
+textarea {
+   height: 120px;
+}
+button {
+   font-size: 1.2;
+   background-color: #FFFAE1;
+}
+button:hover {
+   background-color: #E55039;
+   color: #FFFAE1;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+   height: 1px;
+   width: 75%;
+   background-color: #FFFAE1;
+   margin: 60px auto;
+}
+#copyrightEtIcons {
+   display: flex;
+   margin-bottom: 20px;
+   padding: 0 10%;
+}
+#copyright {
+   width: 50%;
+   text-align: left;
+   color: #FFFAE1
+}
+#Icons {
+   width: 50%;
+   text-align: right;
+}
+#Icons a {
+   display: inline-block;
+   padding: 0 15px;
+   font-size: 1.3em;
+   color: #FFFAE1;
+}
+#Icons a:hover {
+   transform: scale(1.5);
+   transition: 0.1s;
+}
+
+/* PAGE GALERIE PAGE GALERIE PAGE GALERIE PAGE GALERIE PAGE GALERIE PAGE GALERIE PAGE GALERIE PAGE GALERIE   */
+
+#Galerie {
+   padding: 60px;
+   background: #FFFAE1;
+   min-height: 1500px ;
+}
+#GaleriePhoto div {
+   display: inline-flex;
+   justify-content: center;
+   height: 400px;
+   width: 300px;
+   margin: auto ;
+   border-radius: 10px;
+   box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+/* Photo Bojy */
+#Bojy1 {
+   background: url(Media/Album_Bojy/Bojy1.JPEG);
+   background-size: cover;
+}
+#Bojy2 {
+   background: url(Media/Album_Bojy/Bojy2.JPEG);
+   background-size: cover;
+}
+#Bojy3 {
+   background: url(Media/Album_Bojy/Bojy3.JPEG);
+   background-size: cover;
+}
+#Bojy4 {
+   background: url(Media/Album_Bojy/Bojy4.JPEG);
+   background-size: cover;
+}
+#Bojy5 {
+   background: url(Media/Album_Bojy/Bojy5.JPEG);
+   background-size: cover;
+}
+#Bojy6 {
+   background: url(Media/Album_Bojy/Bojy6.JPEG);
+   background-size: cover;
+}
+#Bojy7 {
+   background: url(Media/Album_Bojy/Bojy7.JPEG);
+   background-size: cover;
+}
+#Bojy8 {
+   background: url(Media/Album_Bojy/Bojy8.JPEG);
+   background-size: cover;
+}
+/* Photo Flammeche */
+#Flammeche1 {
+   background: url(Media/Album_Flammeche/Flammeche1.JPEG);
+   background-size: cover;
+}
+#Flammeche2 {
+   background: url(Media/Album_Flammeche/Flammeche2.JPEG);
+   background-size: cover;
+}
+#Flammeche3 {
+   background: url(Media/Album_Flammeche/Flammeche3.JPEG);
+   background-size: cover;
+}
+#Flammeche4 {
+   background: url(Media/Album_Flammeche/Flammeche4.JPEG);
+   background-size: cover;
+}
+#Flammeche5 {
+   background: url(Media/Album_Flammeche/Flammeche5.JPEG);
+   background-size: cover;
+}
+/* Photo Tsuky */
+#Tsuky1 {
+   background: url(Media/Album_Tsuky/Tsuky1.JPEG);
+   background-size: cover;
+}
+#Tsuky2 {
+   background: url(Media/Album_Tsuky/Tsuky2.JPEG);
+   background-size: cover;
+}
+#Tsuky3 {
+   background: url(Media/Album_Tsuky/Tsuky3.JPEG);
+   background-size: cover;
+}
+#Tsuky4 {
+   background: url(Media/Album_Tsuky/Tsuky4.JPEG);
+   background-size: cover;
+}
+#Tsuky5 {
+   background: url(Media/Album_Tsuky/Tsuky5.JPEG);
+   background-size: cover;
+}
+#Tsuky6 {
+   background: url(Media/Album_Tsuky/Tsuky6.JPEG);
+   background-size: cover;
+}
+#Tsuky7 {
+   background: url(Media/Album_Tsuky/Tsuky7.JPEG);
+   background-size: cover;
+}
+/* Photo Tokyo */
+#Tokyo1 {
+   background: url(Media/Album_Tokyo/Tokyo1.JPEG);
+   background-size: cover;
+}
+#Tokyo2 {
+   background: url(Media/Album_Tokyo/Tokyo2.JPEG) ;
+   background-size: cover;
+}
+#Tokyo3 {
+   background: url(Media/Album_Tokyo/Tokyo3.JPEG) ;
+   background-size: cover;
+}
+#Tokyo4 {
+   background: url(Media/Album_Tokyo/Tokyo4.JPEG) ;
+   background-size: cover;
+}
+#Tokyo5 {
+   background: url(Media/Album_Tokyo/Tokyo5.JPEG) ;
+   background-size: cover;
+}
+#Tokyo6 {
+   background: url(Media/Album_Tokyo/Tokyo6.JPEG) ;
+   background-size: cover;
+}
+#Tokyo7 {
+   background: url(Media/Album_Tokyo/Tokyo7.JPEG) ;
+   background-size: cover;
+}
